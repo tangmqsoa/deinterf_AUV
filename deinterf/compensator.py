@@ -19,7 +19,7 @@ class TollesLawsonCompensator:
         self._using_permanent = True
         self._using_induced = True
         self._using_eddy = True
-        self.bt_scale = 50000
+        self.bt_scale = 50000    # 请问50000这个scale是如何确定的？
         self._coefficients_num = coefficients_num
         self.ridge_alphas = [0.1, 0.01, 0.001, 0.0001, 0.00001]
         self._sampling_rate = 10
